@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog & Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main, section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 900px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+
+        img {
+            display: block;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background: #4CAF50;
+            color: white;
+            padding: 10px;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        aside {
+            background: #f0f0f0;
+            padding: 10px;
+            border-left: 3px solid #4CAF50;
+            margin-top: 10px;
+        }
+
+        aside h4 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>My Blog & Gallery</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main id="home">
+        <h2>Welcome to My Personal Website</h2>
+        <p>Hello! This is my personal blog and picture gallery. I share my thoughts, tutorials, and some of my favorite moments captured through photography.</p>
+        
+        <!-- IMAGE -->
+<img src="https://tse2.mm.bing.net/th/id/OIP.Hd-A-LFJ6Me3MmV4KcyC3AHaEK?rs=1&pid=ImgDetMain&o=7&rm=3"" alt="A sample blog/gallery image" width="300">
+
+        <!-- GITHUB LINK -->
+        <p>Check out my projects on <a href="https://github.com/yourgithub" target="_blank">GitHub</a>.</p>
+    </main>
+
+    <!-- BLOG SECTION -->
+    <section id="blog">
+        <h2>Blog Highlights</h2>
+        <article>
+            <h3>My First Blog Post</h3>
+            <p>This is a sample blog post. I’ll be writing about tech, lifestyle, and my personal journey.</p>
+        </article>
+        <aside>
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#">Latest Post</a></li>
+                <li><a href="#">Popular Topics</a></li>
+                <li><a href="#">Archives</a></li>
+            </ul>
+        </aside>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section id="gallery">
+        <h2>My Gallery</h2>
+        <ul>
+            <li>Travel Photos</li>
+            <li>Tech Projects</li>
+            <li>Tutorials</li>
+            <li>Art & Design</li>
+            <li>Personal Memories</li>
+        </ul>
+    </section>
+
+    <!-- SERVICES TABLE -->
+    <section id="services">
+        <h2>Services</h2>
+        <table>
+            <caption>My Services</caption>
+            <tr>
+                <th>Service</th>
+                <th>Price</th>
+                <th>Rating</th>
+            </tr>
+            <tr>
+                <td>Blog Writing</td>
+                <td>KSH2,000</td>
+                <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>Photography</td>
+                <td>KSH5,000</td>
+                <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>Tutorials</td>
+                <td>KSH15,000</td>
+                <td>⭐⭐⭐</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- VIDEO SECTION -->
+    <section>
+        <h2>Featured Tutorial Video</h2>
+        <iframe width="560" height="315" 
+    src="https://www.bing.com/videos/riverview/relatedvideo?&q=bibble&&mid=E83F632E4F005EC5B7BDE83F632E4F005EC5B7BD&&FORM=VRDGAR" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>        <p>This tutorial explains the basics of creating a personal website using HTML.</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contact">
+        <p>Contact: jaderakama@gmail.com</p>
+        <p>&copy; 2025 Personal website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
